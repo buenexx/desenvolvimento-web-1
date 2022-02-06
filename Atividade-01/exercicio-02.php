@@ -3,10 +3,10 @@
 $array = [1,2,3,4,5,6,7,8,9,10];
 
 echo PHP_EOL. PHP_EOL;
-echo 'Soma dos números pares de um array.' . PHP_EOL;
+echo 'Crie um código em PHP que definido um array $arr de n números inteiros, determinar a soma dos números pares.';
 echo PHP_EOL. PHP_EOL;
 
-$informNewArray = readline(' Deseja informar os valores para o array? [Y/n]: ');
+$informNewArray = readline('Deseja informar os valores para o array? [Y/n]: ');
 echo PHP_EOL;
 
 if ($informNewArray === 'Y' || $informNewArray === 'y') {
