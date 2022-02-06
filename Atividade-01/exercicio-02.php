@@ -16,11 +16,7 @@ if ($informNewArray === 'Y' || $informNewArray === 'y') {
     $array = [];
 
     for ($i=0; $i < 5; $i++) {
-        $line = readline("Valor: ");
-
-        readline_add_history($line);
-
-        $array[$i] = $line;
+        $array[$i] = readline("Valor: ");
     }
 
 } else {
